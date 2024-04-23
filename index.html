@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Registro</title>
+    <title>Registro-CultivaMarket</title>
 </head>
 <body>
     <section class="container">
@@ -46,20 +46,37 @@
                     </div>
                 </div>
             </div>
+
+            <div class="genero-box">
+                <h3>Rol</h3>
+                <div class="genero-opcion">
+                    <div class="genero">
+                        <input type="radio" id="check-male" name="genero" checked />
+                        <label for="check-male">Comprador</label>
+                    </div>
+                    <div class="genero">
+                        <input type="radio" id="check-female" name="genero" checked />
+                        <label for="check-female">Vendedor</label>
+                    </div>
+                </div>
+            </div>
             <div class="imput-box address">
                 <label>Direccion</label>
                 <input type="text" placeholder="Ingrese su direccion " required />
                 <input type="text" placeholder="Ingrese su direccion 2" required />
+                <br>
+                <br>
                 <div class="column">
-                    <select>
+                    <select class="selecc">
                         <option hidden>Ciudad</option>
                         <option>Armenia</option>
                         <option>Bogota</option>
                         <option>Medellin</option>
                         <option>Cali</option>
                     </select>
-
-                    <select>
+                    <br>
+                    <br>
+                    <select class="selecc">
                         <option hidden>Region</option>
                         <option>Quindio</option>
                         <option>Cundinamarca</option>

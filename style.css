@@ -122,6 +122,16 @@ body {
     background: rgb(22, 72, 23);
 }
 
+.selecc {
+height: 50px;
+width: 50%;
+}
+
+.selecc input:focus{
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+
+}
+
 @media screen and (max-width: 500px) {
     .form .colum {
         flex-wrap: wrap;
