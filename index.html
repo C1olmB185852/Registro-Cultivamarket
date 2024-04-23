@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro</title>
+</head>
+<body>
+    <section class="container">
+        <header>Registro</header>
+        <form action="#" class="form">
+            <div class="imput-box">
+                <label>Nombre Completo</label>
+                <input type="text" placeholder="Ingrese su nombre completo" required>
+            </div>
+
+            <div class="imput-box">
+                <label>Correo Electronico</label>
+                <input type="text" placeholder="Ingrese su direccio de correo" required>
+            </div>
+
+            <div class="colum">
+                <div class="imput-box">
+                    <label>Numero de Celular</label>
+                    <input type="number" placeholder="Ingrese su numero de celular" required />
+                </div>
+            </div>
+
+            <div class="imput-box">
+                    <label>Fecha de Nacimiento</label>
+                    <input type="date" placeholder="Ingrese su fecha de nacimiento" required />
+            </div>
+            </div>
+
+            <div class="genero-box">
+                <h3>Genero</h3>
+                <div class="genero-opcion">
+                    <div class="genero">
+                        <input type="radio" id="check-male" name="genero" checked />
+                        <label for="check-male">Hombre</label>
+                    </div>
+                    <div class="genero">
+                        <input type="radio" id="check-female" name="genero" checked />
+                        <label for="check-female">Mujer</label>
+                    </div>
+                </div>
+            </div>
+            <div class="imput-box address">
+                <label>Direccion</label>
+                <input type="text" placeholder="Ingrese su direccion " required />
+                <input type="text" placeholder="Ingrese su direccion 2" required />
+                <div class="column">
+                    <select>
+                        <option hidden>Ciudad</option>
+                        <option>Armenia</option>
+                        <option>Bogota</option>
+                        <option>Medellin</option>
+                        <option>Cali</option>
+                    </select>
+
+                    <select>
+                        <option hidden>Region</option>
+                        <option>Quindio</option>
+                        <option>Cundinamarca</option>
+                        <option>Antioquia</option>
+                        <option>Valle del Cauca</option>
+                    </select>
+                </div>
+                <input type="number" placeholder="Codigo Postal" required />
+            </div>
+            <button>Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
