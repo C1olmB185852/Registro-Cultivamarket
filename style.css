@@ -108,3 +108,25 @@ body {
     color: #707070;
     font-size: 1rem;
 }
+
+.form button {
+    height: 55px;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: rgb(22, 72, 23);
+}
+
+@media screen and (max-width: 500px) {
+    .form .colum {
+        flex-wrap: wrap;
+    }
+    .form :where(.genero-opcion, .genero) {
+        row-gap: 15px;
+    }
+}
